@@ -1,0 +1,41 @@
+/* --- Created by Tivotal --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e2e2e2 !important;
+}
+
+.login {
+  width: 360px;
+  height: min-content;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.login h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.login form {
+  font-size: 20px;
+}
+
+.login form .form-group {
+  margin-bottom: 15px;
+}
+
+.login form input[type="submit"] {
+  font-size: 20px;
+  margin-top: 20px;
+}
